@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jugo Fresh Juices | Fresh Juice Made From Real Fruits</title>
+  <meta name="description" content="Jugo Fresh Juices in Morampudi, Rajamahendravaram - Fresh Juices, Soft Milkshakes, Thick Shakes, Mocktails, Falooda and Ice Creams. Order fresh today!" />
+  
+  <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       1. HEADER & NAVIGATION
+       ========================================== -->
+  <header class="header" id="main-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="logo" id="logo-brand">
+        <div class="logo-icon">🍊</div>
+        <div class="logo-text">Jugo <span>Fresh</span></div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <div class="mobile-nav-header">
+          <div class="logo-text" style="font-size: 1.1rem;">Jugo <span>Fresh Juices</span></div>
+          <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close navigation menu">✕</button>
+        </div>
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="cart-trigger" onclick="toggleCartDrawer()" id="cart-drawer-trigger" aria-label="Open Cart">
+          <div class="cart-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-badge" id="cart-badge">0</span>
+          </div>
+          <span class="cart-label-text">Cart</span>
+        </button>
+
+        <a href="tel:7207785729" class="btn-primary" style="padding: 10px 20px; font-size: 0.9rem;" id="nav-call-btn">
+          📞 7207785729
+        </a>
+
+        <div class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content fade-up">
+        <div class="badge-pill">
+          🌿 100% Pure & Hygienic Preparation
+        </div>
+        
+        <h1 class="hero-headline">
+          Fresh Juice.<br />
+          <span>Made From Real Fruits.</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Freshly prepared every day using quality fruits and hygienic preparation in Morampudi, Rajamahendravaram.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#menu" class="btn-primary" id="hero-order-cta">
+            <span>Pre-Order Now</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          
+          <a href="#menu" class="btn-secondary" id="hero-menu-cta">
+            <span>View Menu</span>
+          </a>
+        </div>
+
+        <div class="hero-trust-bar">
+          <div class="trust-item">
+            <div class="trust-icon">★</div>
+            <div class="trust-text">
+              <strong>5.0 Rating</strong>
+              <span>Google Verified Reviews</span>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">⚡</div>
+            <div class="trust-text">
+              <strong>Pre-Order Ahead</strong>
+              <span>Ready in 15 mins • Avoid Wait!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-up">
+        <div class="bottle-glow-bg"></div>
+        <div class="bottle-frame">
+          <img src="/src/assets/images/hero_juice_bottle_1784813112290.jpg" alt="Premium Fresh Juice Bottle - Jugo Fresh Juices" class="hero-bottle-img" referrerPolicy="no-referrer" />
+          
+          <div class="glass-tag tag-top-left">
+            <span style="font-size: 1.2rem;">🍊</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.85rem; color: var(--text-dark);">Real Fruit Pulp</div>
+              <div style="font-size: 0.72rem; color: var(--text-light);">No Preservatives</div>
+            </div>
+          </div>
+
+          <div class="glass-tag tag-bottom-right">
+            <span style="font-size: 1.2rem;">🍃</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.85rem; color: var(--text-dark);">100% Natural</div>
+              <div style="font-size: 0.72rem; color: var(--text-light);">Hygienic Process</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. MENU SECTION
+       ========================================== -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <div class="badge-pill">📋 Daily Menu</div>
+        <h2 class="section-heading">Our Menu</h2>
+        <p class="section-subheading">Select your favorite beverages and pre-order ahead to avoid juice preparation wait time!</p>
+      </div>
+
+      <div class="menu-controls fade-up">
+        <!-- Search Input -->
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-menu" class="search-input" placeholder="Search juices, shakes, mocktails, falooda..." />
+        </div>
+      </div>
+
+      <!-- Complete Menu Container displaying all items by category -->
+      <div class="menu-container" id="menu-container">
+        <!-- Dynamic Category Sections rendered via script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. WHY CHOOSE US SECTION
+       ========================================== -->
+  <section class="why-us-section section-padding" id="why-us">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <div class="badge-pill">🌟 The Jugo Standard</div>
+        <h2 class="section-heading">Why Choose Us</h2>
+        <p class="section-subheading">Here is why customers across Rajamahendravaram love visiting Jugo Fresh Juices.</p>
+      </div>
+
+      <div class="why-grid fade-up">
+        <div class="why-card">
+          <div class="why-icon">🍏</div>
+          <h3 class="why-card-title">Fresh Fruits Daily</h3>
+          <p class="why-card-desc">Sourced fresh every morning from local orchards for peak flavor.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🚫</div>
+          <h3 class="why-card-title">No Artificial Colours</h3>
+          <p class="why-card-desc">Zero chemical dyes or synthetic flavor enhancers ever used.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3 class="why-card-title">Pre-Order & Save Time</h3>
+          <p class="why-card-desc">Pre-order in advance via WhatsApp so your juices are ready when you arrive — avoiding juice making wait time!</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🥛</div>
+          <h3 class="why-card-title">Premium Ingredients</h3>
+          <p class="why-card-desc">Chilled pure milk, premium ice creams, and high-quality dry fruits.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🧼</div>
+          <h3 class="why-card-title">Clean Kitchen</h3>
+          <p class="why-card-desc">Strict hygiene protocol and clean environment for complete peace of mind.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🏷️</div>
+          <h3 class="why-card-title">Affordable Prices</h3>
+          <p class="why-card-desc">Honest, pocket-friendly pricing starting from just ₹59.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3 class="why-card-title">Fast Service</h3>
+          <p class="why-card-desc">Quick & friendly preparation ensuring no long wait times.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. CUSTOMER REVIEWS SECTION
+       ========================================== -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <div class="badge-pill">💬 Customer Feedback</div>
+        <h2 class="section-heading">Customer Reviews</h2>
+        <p class="section-subheading">Honest feedback from our valued daily visitors.</p>
+      </div>
+
+      <!-- Google Rating Showcase -->
+      <div class="google-rating-box fade-up">
+        <div class="google-brand">
+          <span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span>
+          <span>Rating</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div class="score-num">5.0</div>
+          <div>
+            <div class="stars-gold">★★★★★</div>
+            <div style="font-size:0.78rem; color:var(--text-light);">Based on current customer reviews</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Testimonial Cards -->
+      <div class="reviews-grid fade-up">
+        <div class="review-card">
+          <p class="review-text">
+            "Best juice shop in Rajamahendravaram! The Mosambi and Pomegranate juices are super fresh and taste completely natural without extra sugar."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <div style="font-weight: 700; font-size: 0.95rem;">Srinivas R.</div>
+              <div style="font-size: 0.8rem; color: var(--text-light);">Local Guide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">
+            "Always my go-to place after morning workout at Morampudi. Extremely clean, quick service, and honest pricing."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div style="font-weight: 700; font-size: 0.95rem;">Ananya P.</div>
+              <div style="font-size: 0.8rem; color: var(--text-light);">Regular Customer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. CONTACT SECTION
+       ========================================== -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <div class="badge-pill">📍 Location & Contact</div>
+        <h2 class="section-heading">Contact Us</h2>
+        <p class="section-subheading">Visit us in Morampudi or order online for quick pickup!</p>
+      </div>
+
+      <div class="contact-grid fade-up">
+        <div class="contact-card">
+          <div>
+            <h3 style="font-size: 1.6rem; margin-bottom: 24px;">Shop Information</h3>
+            
+            <div class="info-item">
+              <div class="info-icon">🏪</div>
+              <div>
+                <strong style="display:block; font-size: 1rem;">Shop Name</strong>
+                <p style="color: var(--text-muted);">Jugo Fresh Juices</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <strong style="display:block; font-size: 1rem;">Address</strong>
+                <p style="color: var(--text-muted);">Morampudi, Rajamahendravaram,<br />Andhra Pradesh 533107</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <strong style="display:block; font-size: 1rem;">Phone</strong>
+                <a href="tel:7207785729" style="color: var(--primary-orange-dark); font-weight: 700;">7207785729</a>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap;">
+            <a href="tel:7207785729" class="btn-primary" style="flex:1; justify-content:center;">📞 Call Shop</a>
+            <a href="https://wa.me/917207785729" target="_blank" class="btn-whatsapp" style="flex:1;">💬 WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="form-box">
+          <h3 style="font-size: 1.4rem; margin-bottom: 8px;">Place a Direct Pre-Order</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 24px;">Pre-order in advance to save your time! Please reach the shop 15 minutes after ordering to pick up your fresh juices.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="form-name" class="form-label">Your Name</label>
+              <input type="text" id="form-name" class="form-control" placeholder="Enter your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="form-phone" class="form-label">Phone Number</label>
+              <input type="tel" id="form-phone" class="form-control" placeholder="Enter your phone number" required />
+            </div>
+
+            <div class="form-group">
+              <label for="form-item" class="form-label">Select Item</label>
+              <select id="form-item" class="form-control" required>
+                <option value="Fresh Juice - Orange Juice (₹60)">Fresh Juice - Orange Juice (₹60)</option>
+                <option value="Fresh Juice - Mango Juice (₹100)">Fresh Juice - Mango Juice (₹100)</option>
+                <option value="Thick Shake - Kitkat Thick Shake (₹150)">Thick Shake - Kitkat Thick Shake (₹150)</option>
+                <option value="Mocktail - Mint Mojito [BOGO Offer] (₹80)">Mocktail - Mint Mojito [BOGO Offer] (₹80)</option>
+                <option value="Falooda - Rose Falooda (₹110)">Falooda - Rose Falooda (₹110)</option>
+                <option value="Ice Cream - Butterscotch (₹69)">Ice Cream - Butterscotch (₹69)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="form-notes" class="form-label">Special Request / Sugar Level</label>
+              <textarea id="form-notes" class="form-control" rows="2" placeholder="e.g. Less sugar, extra ice"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+              Send Pre-Order via WhatsApp 🚀
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. CART DRAWER & OVERLAY
+       ========================================== -->
+  <div class="drawer-overlay" id="drawer-overlay" onclick="toggleCartDrawer()">
+    <div class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="drawer-header">
+        <div style="font-weight: 700; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
+          <span>🥤 Your Cart</span>
+        </div>
+        <button onclick="toggleCartDrawer()" style="font-size: 1.2rem; font-weight: 700;">✕</button>
+      </div>
+
+      <div class="drawer-body" id="cart-drawer-items">
+        <!-- Rendered via script.js -->
+      </div>
+
+      <div class="drawer-footer">
+        <div style="padding: 10px 12px; background: rgba(255, 138, 0, 0.1); border-radius: 10px; border: 1px solid var(--primary-orange); margin-bottom: 12px; font-size: 0.8rem; color: var(--primary-orange-dark); font-weight: 600; text-align: center;">
+          ⚡ Pre-order in advance to avoid wait time! Please reach the shop 15 minutes after ordering.
+        </div>
+
+        <!-- Juice Specifications / Custom Request Prompt -->
+        <div class="juice-notes-section" style="margin-bottom: 14px;">
+          <label for="cart-notes" style="display: block; font-size: 0.85rem; font-weight: 700; color: var(--text-dark); margin-bottom: 6px;">
+            🥤 Juice Specifications / Custom Requests:
+          </label>
+          <div class="quick-spec-tags" style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px;">
+            <button type="button" class="spec-tag-btn" onclick="addQuickSpec('Less Sugar')">🍯 Less Sugar</button>
+            <button type="button" class="spec-tag-btn" onclick="addQuickSpec('No Sugar')">🚫 No Sugar</button>
+            <button type="button" class="spec-tag-btn" onclick="addQuickSpec('Less Ice')">🧊 Less Ice</button>
+            <button type="button" class="spec-tag-btn" onclick="addQuickSpec('No Ice')">❄️ No Ice</button>
+            <button type="button" class="spec-tag-btn" onclick="addQuickSpec('Extra Thick')">🥤 Extra Thick</button>
+          </div>
+          <input type="text" id="cart-notes" placeholder="e.g. Less sugar, no ice, extra chilled..." style="width: 100%; padding: 8px 12px; border-radius: 8px; border: 1px solid #E4E4E7; font-size: 0.85rem; outline: none; transition: border-color 0.2s;" />
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; font-weight: 700; font-size: 1.1rem;">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal">₹0</span>
+        </div>
+
+        <button class="btn-whatsapp" onclick="placeWhatsAppOrder()">
+          <span>💬 Send Pre-Order via WhatsApp</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Floating Mobile Bottom Cart Bar -->
+  <div class="mobile-bottom-cart-bar" id="mobile-bottom-cart-bar" onclick="toggleCartDrawer()">
+    <div class="mobile-cart-bar-info">
+      <span class="mobile-cart-count" id="mobile-cart-count">0 Items</span>
+      <span class="mobile-cart-price" id="mobile-cart-price">₹0</span>
+    </div>
+    <div class="mobile-cart-bar-action">
+      <span>Pre-Order Cart 🛒</span>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       9. FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="font-size: 1.3rem; font-weight: 800; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+            <span>🍊</span> Jugo Fresh Juices
+          </div>
+          <p style="color: rgba(255, 255, 255, 0.65); font-size: 0.9rem; line-height: 1.6;">
+            Freshly prepared juices, milkshakes, thick shakes, mocktails, falooda & ice creams in Morampudi, Rajamahendravaram.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Top Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#menu">Fresh Juices</a></li>
+            <li><a href="#menu">Soft Milkshakes</a></li>
+            <li><a href="#menu">Thick Shakes</a></li>
+            <li><a href="#menu">Mocktails</a></li>
+            <li><a href="#menu">Falooda</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Address</h4>
+          <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; margin-bottom: 10px;">
+            Morampudi, Rajamahendravaram, AP 533107
+          </p>
+          <p style="color: var(--primary-orange); font-weight: 700; font-size: 0.95rem;">
+            📞 7207785729
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Jugo Fresh Juices. All rights reserved.</div>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" style="background: rgba(255,255,255,0.1); color:#FFF; width:36px; height:36px; border-radius:50%;">↑</button>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/script.js"></script>
+</body>
+</html>
