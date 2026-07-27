@@ -27,7 +27,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/banana_juice_1784820666742.jpg',
+    image: '/images/banana_juice_1784820666742.jpg',
     description: 'Fresh banana blend packed with energy.'
   },
   {
@@ -42,7 +42,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/papaya_juice_1784820681502.jpg',
+    image: '/images/papaya_juice_1784820681502.jpg',
     description: 'Healthy fresh papaya juice for good digestion.'
   },
   {
@@ -57,7 +57,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/musk_melon_juice_1784820693867.jpg',
+    image: '/images/musk_melon_juice_1784820693867.jpg',
     description: 'Cool and hydrating fresh musk melon juice.'
   },
   {
@@ -72,7 +72,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/grape_juice_1784820707487.jpg',
+    image: '/images/grape_juice_1784820707487.jpg',
     description: 'Rich dark grape juice made fresh on order.'
   },
   {
@@ -87,7 +87,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/pineapple_juice_1784813176340.jpg',
+    image: '/images/pineapple_juice_1784813176340.jpg',
     description: 'Tangy and sweet natural pineapple juice.'
   },
   {
@@ -102,7 +102,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/orange_juice_1784813125357.jpg',
+    image: '/images/orange_juice_1784813125357.jpg',
     description: 'Freshly squeezed vitamin-C rich orange juice.'
   },
   {
@@ -117,7 +117,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/mixed_fruit_juice_1784813218559.jpg',
+    image: '/images/mixed_fruit_juice_1784813218559.jpg',
     description: 'Sweet and creamy chikoo sapota juice.'
   },
   {
@@ -132,7 +132,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 80 }
     ],
     price: 60,
-    image: '/src/assets/images/watermelon_juice_1784813148567.jpg',
+    image: '/images/watermelon_juice_1784813148567.jpg',
     description: 'Chilled refreshing watermelon drink.'
   },
   {
@@ -150,7 +150,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 150 }
     ],
     price: 100,
-    image: '/src/assets/images/mango_juice_1784813136475.jpg',
+    image: '/images/mango_juice_1784813136475.jpg',
     description: 'Rich ripe seasonal mango pulp juice.'
   },
   {
@@ -165,7 +165,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 150 }
     ],
     price: 100,
-    image: '/src/assets/images/mixed_fruit_juice_1784813218559.jpg',
+    image: '/images/mixed_fruit_juice_1784813218559.jpg',
     description: 'Delicious sitaphal custard apple pulp drink.'
   },
   {
@@ -180,7 +180,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 150 }
     ],
     price: 100,
-    image: '/src/assets/images/kiwi_juice_1784820721955.jpg',
+    image: '/images/kiwi_juice_1784820721955.jpg',
     description: 'Tangy-sweet fresh kiwi seasonal juice.'
   },
   {
@@ -195,7 +195,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 150 }
     ],
     price: 120,
-    image: '/src/assets/images/dragon_fruit_juice_1784820733995.jpg',
+    image: '/images/dragon_fruit_juice_1784820733995.jpg',
     description: 'Vibrant and healthy fresh dragon fruit drink.'
   },
   {
@@ -210,7 +210,7 @@ const MENU_DATA = [
       { type: 'Pure', price: 150 }
     ],
     price: 110,
-    image: '/src/assets/images/avocado_smoothie_1784903516863.jpg',
+    image: '/images/avocado_smoothie_1784903516863.jpg',
     description: 'Creamy nutrient-packed avocado special.'
   },
 
@@ -221,7 +221,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: '⭐ Bestseller',
-    image: '/src/assets/images/strawberry_juice_1784813189114.jpg',
+    image: '/images/strawberry_juice_1784813189114.jpg',
     description: 'Smooth strawberry soft milkshake with chilled milk.'
   },
   {
@@ -230,7 +230,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/butterscotch_shake_1784903529161.jpg',
+    image: '/images/butterscotch_shake_1784903529161.jpg',
     description: 'Creamy butterscotch soft shake with crunchy bits.'
   },
   {
@@ -239,7 +239,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/pista_shake_1784903541916.jpg',
+    image: '/images/pista_shake_1784903541916.jpg',
     description: 'Pistachio flavored smooth soft milkshake.'
   },
   {
@@ -248,7 +248,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/pomegranate_juice_1784813164650.jpg',
+    image: '/images/pomegranate_juice_1784813164650.jpg',
     description: 'Fresh pomegranate blended soft milkshake.'
   },
   {
@@ -257,7 +257,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/kiwi_juice_1784820721955.jpg',
+    image: '/images/kiwi_juice_1784820721955.jpg',
     description: 'Tangy-sweet kiwi soft milkshake.'
   },
   {
@@ -266,7 +266,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/grape_juice_1784820707487.jpg',
+    image: '/images/grape_juice_1784820707487.jpg',
     description: 'Juicy black grape soft milkshake.'
   },
   {
@@ -275,7 +275,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/black_currant_icecream_1784903629823.jpg',
+    image: '/images/black_currant_icecream_1784903629823.jpg',
     description: 'Flavorful black currant berry soft shake.'
   },
   {
@@ -284,7 +284,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Nutty Soft Shake',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Rich cashew nuts crushed into a soft shake.'
   },
   {
@@ -293,7 +293,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/banana_juice_1784820666742.jpg',
+    image: '/images/banana_juice_1784820666742.jpg',
     description: 'Fresh banana soft milkshake.'
   },
   {
@@ -302,7 +302,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/thickshake_kitkat_1784813536009.jpg',
+    image: '/images/thickshake_kitkat_1784813536009.jpg',
     description: 'Classic chocolate cocoa soft milkshake.'
   },
   {
@@ -311,7 +311,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Badam Soft Shake',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Healthy almond badam soft milkshake.'
   },
   {
@@ -320,7 +320,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: 'Soft Shake',
-    image: '/src/assets/images/butterscotch_shake_1784903529161.jpg',
+    image: '/images/butterscotch_shake_1784903529161.jpg',
     description: 'Silky sweet caramel soft milkshake.'
   },
   {
@@ -329,7 +329,7 @@ const MENU_DATA = [
     category: 'soft-milkshakes',
     price: 120,
     badge: '⭐ Bestseller',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Rich dry fruits blend soft shake.'
   },
 
@@ -340,7 +340,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: '⭐ Bestseller',
-    image: '/src/assets/images/strawberry_juice_1784813189114.jpg',
+    image: '/images/strawberry_juice_1784813189114.jpg',
     description: 'Dense and creamy strawberry thick shake.'
   },
   {
@@ -349,7 +349,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/butterscotch_shake_1784903529161.jpg',
+    image: '/images/butterscotch_shake_1784903529161.jpg',
     description: 'Butterscotch ice cream thick shake with crunch.'
   },
   {
@@ -358,7 +358,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/pista_shake_1784903541916.jpg',
+    image: '/images/pista_shake_1784903541916.jpg',
     description: 'Pistachio ice cream rich thick shake.'
   },
   {
@@ -367,7 +367,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/pomegranate_juice_1784813164650.jpg',
+    image: '/images/pomegranate_juice_1784813164650.jpg',
     description: 'Thick pomegranate fruit shake.'
   },
   {
@@ -376,7 +376,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/black_currant_icecream_1784903629823.jpg',
+    image: '/images/black_currant_icecream_1784903629823.jpg',
     description: 'Black currant berry thick shake.'
   },
   {
@@ -385,7 +385,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/grape_juice_1784820707487.jpg',
+    image: '/images/grape_juice_1784820707487.jpg',
     description: 'Dark grape creamy thick shake.'
   },
   {
@@ -394,7 +394,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/orange_juice_1784813125357.jpg',
+    image: '/images/orange_juice_1784813125357.jpg',
     description: 'Zesty orange cream thick shake.'
   },
   {
@@ -403,7 +403,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/kiwi_juice_1784820721955.jpg',
+    image: '/images/kiwi_juice_1784820721955.jpg',
     description: 'Exotic kiwi thick shake.'
   },
   {
@@ -412,7 +412,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Thick cashew nut ice cream shake.'
   },
   {
@@ -421,7 +421,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/chocolate_icecream_1784903639992.jpg',
+    image: '/images/chocolate_icecream_1784903639992.jpg',
     description: 'Double choco fudge thick shake.'
   },
   {
@@ -430,7 +430,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Badam almond thick shake.'
   },
   {
@@ -439,7 +439,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/butterscotch_shake_1784903529161.jpg',
+    image: '/images/butterscotch_shake_1784903529161.jpg',
     description: 'Caramel fudge thick shake.'
   },
   {
@@ -448,7 +448,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/thickshake_kitkat_1784813536009.jpg',
+    image: '/images/thickshake_kitkat_1784813536009.jpg',
     description: 'Crushed KitKat wafers blended in thick choco ice cream.'
   },
   {
@@ -457,7 +457,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/thickshake_kitkat_1784813536009.jpg',
+    image: '/images/thickshake_kitkat_1784813536009.jpg',
     description: 'Oreo cookies crushed with vanilla thick shake.'
   },
   {
@@ -466,7 +466,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: 'Thick Shake',
-    image: '/src/assets/images/banana_juice_1784820666742.jpg',
+    image: '/images/banana_juice_1784820666742.jpg',
     description: 'Heavy banana ice cream thick shake.'
   },
   {
@@ -475,7 +475,7 @@ const MENU_DATA = [
     category: 'thick-shakes',
     price: 150,
     badge: '⭐ Bestseller',
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Loaded dry fruits thick shake.'
   },
 
@@ -486,7 +486,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/blue_curacao_1784820746824.jpg',
+    image: '/images/blue_curacao_1784820746824.jpg',
     description: 'Refreshing blue citrus soda mocktail. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -495,7 +495,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/mojito_mocktail_1784903653998.jpg',
+    image: '/images/mojito_mocktail_1784903653998.jpg',
     description: 'Zesty green apple and lime fizz. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -504,7 +504,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/strawberry_juice_1784813189114.jpg',
+    image: '/images/strawberry_juice_1784813189114.jpg',
     description: 'Tangy mixed berries crushed with soda. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -513,7 +513,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/mojito_mocktail_1784903653998.jpg',
+    image: '/images/mojito_mocktail_1784903653998.jpg',
     description: 'Crisp green apple mocktail with spice hint. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -522,7 +522,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/pomegranate_juice_1784813164650.jpg',
+    image: '/images/pomegranate_juice_1784813164650.jpg',
     description: 'Tart cranberry cooler with lemon juice. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -531,7 +531,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/strawberry_juice_1784813189114.jpg',
+    image: '/images/strawberry_juice_1784813189114.jpg',
     description: 'Muddled strawberries, mint leaves and lime. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -540,7 +540,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/strawberry_juice_1784813189114.jpg',
+    image: '/images/strawberry_juice_1784813189114.jpg',
     description: 'Sweet retro bubble gum flavored cooler. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -549,7 +549,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/mojito_mocktail_1784903653998.jpg',
+    image: '/images/mojito_mocktail_1784903653998.jpg',
     description: 'Classic crushed mint and sparkling lemon. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -558,7 +558,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/vanilla_icecream_1784903586309.jpg',
+    image: '/images/vanilla_icecream_1784903586309.jpg',
     description: 'Smooth vanilla mocktail drink. (Buy 1 Get 1 Same Tail)'
   },
   {
@@ -567,7 +567,7 @@ const MENU_DATA = [
     category: 'mocktails',
     price: 80,
     badge: 'BOGO Offer 🎁',
-    image: '/src/assets/images/mojito_mocktail_1784903653998.jpg',
+    image: '/images/mojito_mocktail_1784903653998.jpg',
     description: 'Refreshing classic lime mojito. (Buy 1 Get 1 Same Tail)'
   },
 
@@ -579,7 +579,7 @@ const MENU_DATA = [
     price: 110,
     badge: 'Falooda',
     hasNutsOption: true,
-    image: '/src/assets/images/rose_falooda_1784903564418.jpg',
+    image: '/images/rose_falooda_1784903564418.jpg',
     description: 'Rose syrup, basil seeds, vermicelli, and ice cream.'
   },
   {
@@ -589,7 +589,7 @@ const MENU_DATA = [
     price: 110,
     badge: 'Falooda',
     hasNutsOption: true,
-    image: '/src/assets/images/mango_falooda_1784903574948.jpg',
+    image: '/images/mango_falooda_1784903574948.jpg',
     description: 'Mango pulp, basil seeds, vermicelli and ice cream.'
   },
   {
@@ -599,7 +599,7 @@ const MENU_DATA = [
     price: 110,
     badge: 'Falooda',
     hasNutsOption: true,
-    image: '/src/assets/images/rose_falooda_1784903564418.jpg',
+    image: '/images/rose_falooda_1784903564418.jpg',
     description: 'Apple pieces, vermicelli, rose syrup and ice cream.'
   },
   {
@@ -609,7 +609,7 @@ const MENU_DATA = [
     price: 120,
     badge: 'Fruit Cut',
     hasNutsOption: true,
-    image: '/src/assets/images/falooda_special_1784813559194.jpg',
+    image: '/images/falooda_special_1784813559194.jpg',
     description: 'Assorted fresh cut fruits with falooda fixings.'
   },
 
@@ -621,7 +621,7 @@ const MENU_DATA = [
     price: 59,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/vanilla_icecream_1784903586309.jpg',
+    image: '/images/vanilla_icecream_1784903586309.jpg',
     description: 'Classic smooth vanilla ice cream scoop.'
   },
   {
@@ -631,7 +631,7 @@ const MENU_DATA = [
     price: 59,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/strawberry_icecream_1784903617256.jpg',
+    image: '/images/strawberry_icecream_1784903617256.jpg',
     description: 'Fresh strawberry ice cream scoop.'
   },
   {
@@ -641,7 +641,7 @@ const MENU_DATA = [
     price: 69,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/butterscotch_icecream_1784903600808.jpg',
+    image: '/images/butterscotch_icecream_1784903600808.jpg',
     description: 'Crunchy butterscotch praline ice cream scoop.'
   },
   {
@@ -651,7 +651,7 @@ const MENU_DATA = [
     price: 69,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/pista_shake_1784903541916.jpg',
+    image: '/images/pista_shake_1784903541916.jpg',
     description: 'Rich pistachio green ice cream scoop.'
   },
   {
@@ -661,7 +661,7 @@ const MENU_DATA = [
     price: 79,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/black_currant_icecream_1784903629823.jpg',
+    image: '/images/black_currant_icecream_1784903629823.jpg',
     description: 'Black currant ice cream scoop.'
   },
   {
@@ -671,7 +671,7 @@ const MENU_DATA = [
     price: 79,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/chocolate_icecream_1784903639992.jpg',
+    image: '/images/chocolate_icecream_1784903639992.jpg',
     description: 'Dark rich chocolate ice cream scoop.'
   },
   {
@@ -681,7 +681,7 @@ const MENU_DATA = [
     price: 79,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/almond_badam_shake_1784903553402.jpg',
+    image: '/images/almond_badam_shake_1784903553402.jpg',
     description: 'Dry fruits special ice cream scoop.'
   },
   {
@@ -691,7 +691,7 @@ const MENU_DATA = [
     price: 79,
     badge: 'Ice Cream',
     hasNutsOption: true,
-    image: '/src/assets/images/icecream_scoops_1784813574474.jpg',
+    image: '/images/icecream_scoops_1784813574474.jpg',
     description: 'Cashew and raisin infused ice cream scoop.'
   }
 ];
